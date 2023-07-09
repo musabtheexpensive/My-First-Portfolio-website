@@ -6,11 +6,19 @@ body {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 15px 35px;
 }
 
 /* nav related styles */
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 200px ;
 }
 
 .nav-title {
@@ -25,6 +33,7 @@ nav {
 
 nav>ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -35,4 +44,17 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+/* header style start */
+.header-class{
+background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+   
+    width: 500px;
 }
