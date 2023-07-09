@@ -3,6 +3,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.section-style {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
@@ -18,7 +31,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0 200px ;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -45,16 +58,59 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header style start */
-.header-class{
-background-color: #FFF8F3;
+.header {
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile{
-   
+
+.banner-content {
+    /* max-width: 300px; */
+}
+
+.short {
+    display: flex;
+    width: 585px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner .profile {
     width: 500px;
+}
+
+.banner-greeting {
+    color: var(--dark-02, #474747);
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
